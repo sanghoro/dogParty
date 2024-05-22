@@ -97,6 +97,7 @@ body {
     justify-content: space-around;
     align-items: flex-start;
     padding: 50px;
+    background-color: white;
 }
 
 .dog-section {
