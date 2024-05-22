@@ -1,0 +1,171 @@
+:root {
+    --main-accent-color: #3F8DA8;
+    --secondary-accent-color: #92E0E5;
+    --given-font: "Raleway", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: var(--given-font)
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-accent-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 0;
+}
+
+.navbar-iconholder {
+    display: flex;
+    align-items: center;
+}
+
+.dog-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+
+/*CONTAINER-ONE*/
+.container-one {
+    margin: 0;
+    height: 38vh;
+    background-image: url("./images/park.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-one-title {
+    margin: 0;
+}
+
+.container-one-title {
+    padding: 25px;
+    font-family: var(--given-font);
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.main-dog {
+    border: 4px solid;
+    border-radius: 50%;
+    border-color: var(--main-accent-color);
+    margin-bottom: 20px;
+}
+
+/* COMMON BUTTONS*/
+.doggy-button {
+    border: 4px solid;
+    border-color: var(--main-accent-color);
+    color: var(--main-accent-color);
+    background-color: white;
+    padding: 6px 10px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: var(--given-font)
+}
+
+/*CONTAINER-TWO*/
+.container-two {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.dog-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.How,
+.What,
+.Facts {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-bottom: 15px;
+}
+
+.DogOne,
+.DogTwo,
+.DogThree {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: var(--main-accent-color);
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: center;
+    font-size: 19px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* FOOTER */
+footer {
+    height: 15vh;
+    width: 100%;
+    background-color: var(--main-accent-color);
+    font-family: var(--given-font);
+    font-size: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-title {
+    font-family: var(--given-font);
+    font-size: 17px;
+    font-weight: 300;
+    padding-top: 15px;
+}
+
+.socialmedia-icons {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+.footer-link {
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
